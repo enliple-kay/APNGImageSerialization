@@ -24,6 +24,9 @@
 		6A365A392538303E00F2B567 /* APNGImageSerialization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A365A322538303E00F2B567 /* APNGImageSerialization.framework */; };
 		6A365A3A2538303E00F2B567 /* APNGImageSerialization.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A365A322538303E00F2B567 /* APNGImageSerialization.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6A365A422538305E00F2B567 /* APNGImageSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A365A402538305E00F2B567 /* APNGImageSerialization.m */; };
+		6A365AA62538441200F2B567 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A365AA52538441200F2B567 /* ImageIO.framework */; };
+		6A365AA82538441F00F2B567 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A365AA72538441F00F2B567 /* UIKit.framework */; };
+		6A365AAA2538442C00F2B567 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A365AA92538442C00F2B567 /* CoreServices.framework */; };
 		862263D75DFE836FCFF6CAE0 /* Pods_APNGImageSerialization_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EB55EE6378F1F76A09DE02 /* Pods_APNGImageSerialization_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9C39D41B2180768A00593378 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C39D4192180768A00593378 /* Interface.storyboard */; };
@@ -138,8 +141,11 @@
 		6A365A322538303E00F2B567 /* APNGImageSerialization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APNGImageSerialization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A365A342538303E00F2B567 /* APNGImageSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APNGImageSerialization.h; sourceTree = "<group>"; };
 		6A365A352538303E00F2B567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A365A3F2538305E00F2B567 /* APNGImageSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = APNGImageSerialization.h; path = ../APNGImageSerialization/Classes/APNGImageSerialization.h; sourceTree = "<group>"; };
-		6A365A402538305E00F2B567 /* APNGImageSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = APNGImageSerialization.m; path = ../APNGImageSerialization/Classes/APNGImageSerialization.m; sourceTree = "<group>"; };
+		6A365A3F2538305E00F2B567 /* APNGImageSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APNGImageSerialization.h; sourceTree = "<group>"; };
+		6A365A402538305E00F2B567 /* APNGImageSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APNGImageSerialization.m; sourceTree = "<group>"; };
+		6A365AA52538441200F2B567 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		6A365AA72538441F00F2B567 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A365AA92538442C00F2B567 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9C39D4172180768A00593378 /* APNGwatchOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APNGwatchOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C39D41A2180768A00593378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -190,6 +196,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A365AAA2538442C00F2B567 /* CoreServices.framework in Frameworks */,
+				6A365AA82538441F00F2B567 /* UIKit.framework in Frameworks */,
+				6A365AA62538441200F2B567 /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,8 +236,6 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				6A365A3F2538305E00F2B567 /* APNGImageSerialization.h */,
-				6A365A402538305E00F2B567 /* APNGImageSerialization.m */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for APNGImageSerialization */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -256,7 +263,10 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6A365AA92538442C00F2B567 /* CoreServices.framework */,
+				6A365AA72538441F00F2B567 /* UIKit.framework */,
 				9C70A8331DDD997B00CE8403 /* ImageIO.framework */,
+				6A365AA52538441200F2B567 /* ImageIO.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -329,10 +339,20 @@
 		6A365A332538303E00F2B567 /* APNGImageSerialization */ = {
 			isa = PBXGroup;
 			children = (
+				6A365AAF2538445C00F2B567 /* source */,
 				6A365A342538303E00F2B567 /* APNGImageSerialization.h */,
 				6A365A352538303E00F2B567 /* Info.plist */,
 			);
 			path = APNGImageSerialization;
+			sourceTree = "<group>";
+		};
+		6A365AAF2538445C00F2B567 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				6A365A3F2538305E00F2B567 /* APNGImageSerialization.h */,
+				6A365A402538305E00F2B567 /* APNGImageSerialization.m */,
+			);
+			path = source;
 			sourceTree = "<group>";
 		};
 		9C39D4182180768A00593378 /* APNGwatchOSDemo */ = {
