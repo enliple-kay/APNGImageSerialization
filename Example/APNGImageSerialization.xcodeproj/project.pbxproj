@@ -20,6 +20,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6A365A362538303E00F2B567 /* APNGImageSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A365A342538303E00F2B567 /* APNGImageSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A365A392538303E00F2B567 /* APNGImageSerialization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A365A322538303E00F2B567 /* APNGImageSerialization.framework */; };
+		6A365A3A2538303E00F2B567 /* APNGImageSerialization.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A365A322538303E00F2B567 /* APNGImageSerialization.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A365A422538305E00F2B567 /* APNGImageSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A365A402538305E00F2B567 /* APNGImageSerialization.m */; };
 		862263D75DFE836FCFF6CAE0 /* Pods_APNGImageSerialization_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EB55EE6378F1F76A09DE02 /* Pods_APNGImageSerialization_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9C39D41B2180768A00593378 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C39D4192180768A00593378 /* Interface.storyboard */; };
@@ -44,6 +48,13 @@
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = APNGImageSerialization;
 		};
+		6A365A372538303E00F2B567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A365A312538303E00F2B567;
+			remoteInfo = APNGImageSerialization;
+		};
 		9C39D4252180768D00593378 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
@@ -61,6 +72,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		6A365A3E2538303E00F2B567 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6A365A3A2538303E00F2B567 /* APNGImageSerialization.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C39D4392180768E00593378 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -113,6 +135,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		66968B0D4C1FE00C704E3D5B /* Pods_APNGImageSerialization_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APNGImageSerialization_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A365A322538303E00F2B567 /* APNGImageSerialization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APNGImageSerialization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A365A342538303E00F2B567 /* APNGImageSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APNGImageSerialization.h; sourceTree = "<group>"; };
+		6A365A352538303E00F2B567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A365A3F2538305E00F2B567 /* APNGImageSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = APNGImageSerialization.h; path = ../APNGImageSerialization/Classes/APNGImageSerialization.h; sourceTree = "<group>"; };
+		6A365A402538305E00F2B567 /* APNGImageSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = APNGImageSerialization.m; path = ../APNGImageSerialization/Classes/APNGImageSerialization.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9C39D4172180768A00593378 /* APNGwatchOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APNGwatchOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C39D41A2180768A00593378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -143,6 +170,7 @@
 			files = (
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				6A365A392538303E00F2B567 /* APNGImageSerialization.framework in Frameworks */,
 				B5BAF879A4329B216279A398 /* Pods_APNGImageSerialization_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,6 +183,13 @@
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				862263D75DFE836FCFF6CAE0 /* Pods_APNGImageSerialization_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A365A2F2538303E00F2B567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,11 +227,14 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				6A365A3F2538305E00F2B567 /* APNGImageSerialization.h */,
+				6A365A402538305E00F2B567 /* APNGImageSerialization.m */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for APNGImageSerialization */,
 				6003F5B5195388D20070C39A /* Tests */,
 				9C39D4182180768A00593378 /* APNGwatchOSDemo */,
 				9C39D4272180768D00593378 /* APNGwatchOSDemo Extension */,
+				6A365A332538303E00F2B567 /* APNGImageSerialization */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				5B2EF724FB6301C373C2954A /* Pods */,
@@ -210,6 +248,7 @@
 				6003F5AE195388D20070C39A /* APNGImageSerialization_Tests.xctest */,
 				9C39D4172180768A00593378 /* APNGwatchOSDemo.app */,
 				9C39D4232180768D00593378 /* APNGwatchOSDemo Extension.appex */,
+				6A365A322538303E00F2B567 /* APNGImageSerialization.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -287,6 +326,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		6A365A332538303E00F2B567 /* APNGImageSerialization */ = {
+			isa = PBXGroup;
+			children = (
+				6A365A342538303E00F2B567 /* APNGImageSerialization.h */,
+				6A365A352538303E00F2B567 /* Info.plist */,
+			);
+			path = APNGImageSerialization;
+			sourceTree = "<group>";
+		};
 		9C39D4182180768A00593378 /* APNGwatchOSDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +361,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		6A365A2D2538303E00F2B567 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A365A362538303E00F2B567 /* APNGImageSerialization.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		6003F589195388D20070C39A /* APNGImageSerialization_Example */ = {
 			isa = PBXNativeTarget;
@@ -324,11 +383,13 @@
 				6003F588195388D20070C39A /* Resources */,
 				113F192EFBD019B1B969346D /* [CP] Embed Pods Frameworks */,
 				9C39D43B2180768E00593378 /* Embed Watch Content */,
+				6A365A3E2538303E00F2B567 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				9C39D4322180768E00593378 /* PBXTargetDependency */,
+				6A365A382538303E00F2B567 /* PBXTargetDependency */,
 			);
 			name = APNGImageSerialization_Example;
 			productName = APNGImageSerialization;
@@ -353,6 +414,24 @@
 			productName = APNGImageSerializationTests;
 			productReference = 6003F5AE195388D20070C39A /* APNGImageSerialization_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A365A312538303E00F2B567 /* APNGImageSerialization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A365A3B2538303E00F2B567 /* Build configuration list for PBXNativeTarget "APNGImageSerialization" */;
+			buildPhases = (
+				6A365A2D2538303E00F2B567 /* Headers */,
+				6A365A2E2538303E00F2B567 /* Sources */,
+				6A365A2F2538303E00F2B567 /* Frameworks */,
+				6A365A302538303E00F2B567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APNGImageSerialization;
+			productName = APNGImageSerialization;
+			productReference = 6A365A322538303E00F2B567 /* APNGImageSerialization.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		9C39D4162180768A00593378 /* APNGwatchOSDemo */ = {
 			isa = PBXNativeTarget;
@@ -407,6 +486,11 @@
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
+					6A365A312538303E00F2B567 = {
+						CreatedOnToolsVersion = 12.0.1;
+						DevelopmentTeam = JRKXNW9FRX;
+						ProvisioningStyle = Automatic;
+					};
 					9C39D4162180768A00593378 = {
 						CreatedOnToolsVersion = 10.0;
 						DevelopmentTeam = JRKXNW9FRX;
@@ -424,6 +508,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -436,6 +521,7 @@
 				6003F5AD195388D20070C39A /* APNGImageSerialization_Tests */,
 				9C39D4162180768A00593378 /* APNGwatchOSDemo */,
 				9C39D4222180768D00593378 /* APNGwatchOSDemo Extension */,
+				6A365A312538303E00F2B567 /* APNGImageSerialization */,
 			);
 		};
 /* End PBXProject section */
@@ -459,6 +545,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A365A302538303E00F2B567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +695,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6A365A2E2538303E00F2B567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A365A422538305E00F2B567 /* APNGImageSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C39D41F2180768D00593378 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -618,6 +719,11 @@
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* APNGImageSerialization_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+		6A365A382538303E00F2B567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A365A312538303E00F2B567 /* APNGImageSerialization */;
+			targetProxy = 6A365A372538303E00F2B567 /* PBXContainerItemProxy */;
 		};
 		9C39D4262180768D00593378 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -767,6 +873,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APNGImageSerialization/APNGImageSerialization-Prefix.pch";
 				INFOPLIST_FILE = "APNGImageSerialization/APNGImageSerialization-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -784,6 +891,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APNGImageSerialization/APNGImageSerialization-Prefix.pch";
 				INFOPLIST_FILE = "APNGImageSerialization/APNGImageSerialization-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -833,6 +941,75 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APNGImageSerialization_Example.app/APNGImageSerialization_Example";
 				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		6A365A3C2538303E00F2B567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JRKXNW9FRX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = APNGImageSerialization/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = vigwave.APNGImageSerialization;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A365A3D2538303E00F2B567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JRKXNW9FRX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = APNGImageSerialization/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = vigwave.APNGImageSerialization;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -974,6 +1151,15 @@
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
 				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A365A3B2538303E00F2B567 /* Build configuration list for PBXNativeTarget "APNGImageSerialization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A365A3C2538303E00F2B567 /* Debug */,
+				6A365A3D2538303E00F2B567 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
