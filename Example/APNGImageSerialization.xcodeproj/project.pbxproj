@@ -20,13 +20,13 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6A365A362538303E00F2B567 /* APNGImageSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A365A342538303E00F2B567 /* APNGImageSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A365A392538303E00F2B567 /* APNGImageSerialization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A365A322538303E00F2B567 /* APNGImageSerialization.framework */; };
 		6A365A3A2538303E00F2B567 /* APNGImageSerialization.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A365A322538303E00F2B567 /* APNGImageSerialization.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6A365A422538305E00F2B567 /* APNGImageSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A365A402538305E00F2B567 /* APNGImageSerialization.m */; };
 		6A365AA62538441200F2B567 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A365AA52538441200F2B567 /* ImageIO.framework */; };
 		6A365AA82538441F00F2B567 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A365AA72538441F00F2B567 /* UIKit.framework */; };
 		6A365AAA2538442C00F2B567 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A365AA92538442C00F2B567 /* CoreServices.framework */; };
+		6ACB89E525466CE50084B56D /* APNGImageSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A365A3F2538305E00F2B567 /* APNGImageSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		862263D75DFE836FCFF6CAE0 /* Pods_APNGImageSerialization_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EB55EE6378F1F76A09DE02 /* Pods_APNGImageSerialization_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9C39D41B2180768A00593378 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C39D4192180768A00593378 /* Interface.storyboard */; };
@@ -386,7 +386,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A365A362538303E00F2B567 /* APNGImageSerialization.h in Headers */,
+				6ACB89E525466CE50084B56D /* APNGImageSerialization.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
